@@ -104,7 +104,7 @@ function Contact() {
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/sujeet-kumar-kumar-433b6744/"
                 className="rounded-lg border border-slate-800 px-5 py-3 text-sm font-medium text-slate-300 transition hover:border-cyan-500/40 hover:text-cyan-400"
               >
                 LinkedIn
