@@ -23,8 +23,8 @@ const Navbar = () => {
           href="#home"
           className="text-2xl font-bold tracking-tight text-white"
         >
-          <span className="text-cyan-400">S</span>K
-          <span className="text-cyan-400">.</span>
+          <span className="text-cyan-400">Sujeet</span>Kumar
+          <span className="text-cyan-400"></span>
         </a>
 
         {/* Desktop Menu */}
