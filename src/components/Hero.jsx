@@ -66,12 +66,14 @@ const Hero = () => {
             </a>
 
             <a
-              href="/resume.pdf"
-              download
-              className="rounded-full border border-slate-700 px-7 py-3.5 text-center font-bold text-slate-200 transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400"
-            >
-              Download Resume
-            </a>
+          href={`${import.meta.env.BASE_URL}Sujeet_Kumar_Resume_2026.pdf`}
+          download="Sujeet-Kumar-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full border border-slate-700 px-7 py-3.5 text-center font-bold text-slate-200 transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400"
+        >
+          Download Resume
+        </a>
 
           </div>
 
@@ -124,10 +126,10 @@ const Hero = () => {
 
                 <p className="mt-1 text-sm text-slate-500">
                   <img
-				  src="/profile.jpg"
-				  alt="Sujeet Kumar"
-				  className="h-full w-full object-cover"
-				/>
+                    src={`${import.meta.env.BASE_URL}profile.jpg`}
+                    alt="Sujeet Kumar"
+                    className="h-full w-full object-cover"
+                  />
                 </p>
               </div>
 

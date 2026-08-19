@@ -342,7 +342,7 @@ const Experience = () => {
         <div className="mt-14 text-center">
 
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}Sujeet_Kumar_Resume_2026.pdf`}
             download
             className="inline-flex items-center gap-2 rounded-full bg-cyan-400 px-7 py-3.5 font-bold text-slate-950 transition hover:-translate-y-1 hover:bg-cyan-300 hover:shadow-lg hover:shadow-cyan-400/20"
           >
